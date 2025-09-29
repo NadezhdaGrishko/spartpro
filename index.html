@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spartspro</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/png" href="./assets/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header container">
+        <div class="logo">
+            <a href="#">
+                <img src="./assets/logo.png" alt="logo" class="logo-img">
+            </a>
+        </div>
+
+        <div id="desktop__nav" class="desktop__nav">
+            <nav class="nav__links">
+                <a href="#main" class="nav__link">главная</a>
+                <a href="#catalog" class="nav__link">каталог</a>
+                <a href="#about" class="nav__link">о компании</a>
+                <a href="#payment" class="nav__link">оплата и доставка</a>
+                <a href="#contact" class="nav__link">контакты</a>
+            </nav>
+        </div>
+
+        <div id="mobile__nav" class="mobile__nav">
+            <img src="./assets/icon-menu.png" alt="menu" class="mobile-menu-icon">
+        </div>
+    </header>
+
+
+    <section id='catalog' class="container">
+        <h1 class="title">рекомендуемое оборудование</h1>
+        <div id="catalog-container" class="catalog">
+        </div>
+        <div class="button-container">
+            <button class="btn btn-catalog">Перейти в каталог</button>
+        </div>
+
+    </section>
+
+    <section class="about container">
+        <h1 class="title">о компании</h1>
+        <div class="about__block">
+            <div class="about__images">
+                <div class="about__image-block about__image-block_main">
+                    <img src="./assets/about/about1.png" alt="about" class="about__img">
+                </div>
+                <div class="about__image-group">
+                    <div class="about__image-block about__image-block_secondary">
+                        <img src="./assets/about/about2.png" alt="about" class="about__img">
+                    </div>
+                    <div class="about__image-block about__image-block_secondary">
+                        <img src="./assets/about/about3.png" alt="about" class="about__img">
+                    </div>
+                </div>
+            </div>
+            <div class="about__content">
+                <div class="about__header">
+                    <h2 class="about__title">Компания «SPARTSPRO» специализируется на поставках лифтового оборудования,
+                        комплектующих и запчастей для лифтов и эскалаторов ведущих мировых и российских производителей.
+                    </h2>
+                </div>
+                <div class="about__description">
+                    <div class="about__description-item">
+                        <img src="./assets/icon-check-yellow.png" class="icon-check" alt="check">
+                        <p class="about__text">Гарантия качества – работаем только с проверенными производителями.</p>
+                    </div>
+                    <div class="about__description-item">
+                        <img src="./assets/icon-check-yellow.png" class="icon-check" alt="check">
+                        <p class="about__text">Собственный склад – более 30 000 наименований в наличии для оперативных
+                            отгрузок.</p>
+                    </div>
+                    <div class="about__description-item">
+                        <img src="./assets/icon-check-yellow.png" class="icon-check" alt="check">
+                        <p class="about__text">Соблюдение сроков – приоритет компании: быстрая обработка заказов и
+                            доставка без задержек.</p>
+                    </div>
+                    <p class="about__text">Мы обеспечиваем бесперебойные поставки для ваших проектов. Оставьте заявку –
+                        и получите коммерческое предложение в кратчайшие сроки!</p>
+                </div>
+                <button class="about__button btn">Подробнее</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

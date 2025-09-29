@@ -1,0 +1,113 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    max-width: 1160px;
+  }
+}
+
+@media screen and (max-width: 1160px) {
+  .container {
+    max-width: 768px;
+  }
+
+  /* HEADER */
+
+  .header {
+    padding-top: 16px;
+    padding-bottom: 64px;
+  }
+  .header .desktop__nav {
+    display: none;
+  }
+  .header .mobile__nav {
+    display: block;
+  }
+
+  /* CATALOG  */
+  #catalog .title {
+    font-size: 30px;
+  }
+  .catalog {
+    flex-direction: column;
+    gap: 0;
+  }
+  .catalog .catalog-item .catalog-item__content {
+    max-width: 320px;
+  }
+  .button-container {
+    margin-bottom: 50px;
+  }
+
+  /* ABOUT */
+  .about .title {
+    font-size: 30px;
+  }
+  .about .about__block {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .about .about__block .about__images .about__image-block_main img,
+  .about .about__block .about__images .about__image-block_secondary,
+  .about .about__block .about__images .about__image-block_secondary img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+
+  /* CATALOG  */
+  #catalog .title {
+    font-size: 20px;
+  }
+
+  /* ABOUT */
+  .about .title {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 360px;
+  }
+
+  /* HEADER */
+  .header .mobile__nav {
+    width: 46px;
+    height: 46px;
+  }
+
+  /* CATALOG */
+  .catalog {
+    flex-direction: row;
+    gap: 20px;
+  }
+  .catalog .catalog-item {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .catalog .catalog-item .catalog-item__image {
+    max-width: 170px;
+    height: auto;
+  }
+  .catalog .catalog-item .catalog-item__image img {
+    max-width: 170px;
+    height: auto;
+  }
+  .catalog .catalog-item .catalog-item__content .catalog-item__title {
+    font-size: 16px;
+  }
+  .catalog .catalog-item .catalog-item__content .catalog-item__info .info-text {
+    font-size: 14px;
+  }
+  .catalog .catalog-item .catalog-item__content .catalog-item__info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.catalog .catalog-item .catalog-item__content{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+}
