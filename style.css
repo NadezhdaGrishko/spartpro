@@ -28,7 +28,7 @@ body {
   line-height: 145%;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.25s ease;
+  transition: all 0.25s ease;
   border-radius: 8px;
 }
 .btn:hover {
@@ -66,7 +66,7 @@ h1 {
   font-size: 16px;
   text-decoration: none;
   cursor: pointer;
-  transition: 0.25s ease;
+  transition: all 0.25s ease;
 }
 .header .desktop__nav .nav__link:hover {
   color: #ee753e;
@@ -76,11 +76,29 @@ h1 {
   height: 50px;
   display: none;
   cursor: pointer;
-  transition: 0.25s ease;
+  transition: all 0.25s ease;
 }
 .header .mobile__nav img {
   width: 100%;
   object-fit: cover;
+}
+.menu-links {
+  display: none;
+}
+
+.menu-links .menu-link {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #272a33;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  line-height: 150%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #D5DFE9;
 }
 
 /* CATALOG */
@@ -118,6 +136,7 @@ h1 {
 } */
 .catalog .catalog-item .catalog-item__content {
   display: flex;
+  gap: 10px;
   flex-direction: column;
   align-items: start;
   padding: 30px 0;
@@ -152,10 +171,6 @@ h1 {
   font-weight: 400;
   font-size: 16px;
   line-height: 145%;
-}
-.catalog .catalog-item .catalog-item__content .catalog-item__button {
-  margin-top: 12px;
-  /* margin-bottom: 30px; */
 }
 
 /* ABOUT */

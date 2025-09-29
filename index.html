@@ -33,9 +33,18 @@
             </nav>
         </div>
 
-        <div id="mobile__nav" class="mobile__nav">
+
+        <div id="mobile__nav" class="mobile__nav" onclick="toggleMenu()">
             <img src="./assets/icon-menu.png" alt="menu" class="mobile-menu-icon">
         </div>
+        <div id="hamburger-nav" class="menu-links container">
+            <a href="#main" class="menu-link" onclick="toggleMenu()">главная</a>
+            <a href="#catalog" class="menu-link" onclick="toggleMenu()">каталог</a>
+            <a href="#about" class="menu-link" onclick="toggleMenu()">о компании</a>
+            <a href="#payment" class="menu-link" onclick="toggleMenu()">оплата и доставка</a>
+            <a href="#contact" class="menu-link" onclick="toggleMenu()">контакты</a>
+        </div>
+
     </header>
 
 

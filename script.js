@@ -93,7 +93,11 @@ function createProductHTML(product) {
         </div>`;
 }
 
+function toggleMenu() {
+  const menu = document.querySelector(".menu-links");
+  const icon = document.querySelector(".mobile__nav");
+  menu.classList.toggle("open");
+  icon.classList.toggle("open");
+}
 
-
-// Запускаем рендеринг при загрузке страницы
 document.addEventListener("DOMContentLoaded", renderProducts);
