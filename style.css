@@ -105,10 +105,14 @@ h1 {
 .catalog {
   display: flex;
   justify-content: space-between;
-  align-items: start;
+  align-items: stretch;
   gap: 30px;
 }
 .catalog .catalog-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: stretch;
     flex:1;
 }
 .button-container {
@@ -127,6 +131,8 @@ h1 {
   justify-items: start;
   align-items: stretch;
   gap: 30px;
+  flex: 1; /* ← Это заставляет каждый item растягиваться */
+  min-height: 0;
 }
 .catalog .catalog-item .catalog-item__image {
   width: 220px;
@@ -143,6 +149,7 @@ h1 {
   flex-direction: column;
   align-items: start;
   padding: 30px 0;
+  flex: 1;
   
 }
 .catalog .catalog-item .catalog-item__content .catalog-item__title {
