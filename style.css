@@ -133,10 +133,13 @@ h1 {
   gap: 30px;
   flex: 1; /* ← Это заставляет каждый item растягиваться */
   min-height: 0;
+  border: 1px solid #E0E6ED;
+  border-radius: 8px;
 }
 .catalog .catalog-item .catalog-item__image {
   width: 220px;
   height: 220px;
+      background-color: #EEF3F8;
 }
 /* .catalog .catalog-item .catalog-item__image img {
   width: 100%;
